@@ -115,7 +115,7 @@ def search_profile_on_site(site, username):
         print(f"Profile not found on {site}")
 
 # Exemplo de uso do script
-username = input("Digite o nome de usuário do perfil do Instagram: ")
+username = input("Digite o nome de usuário do perfil: ")
 perfil = obter_informacoes_perfil(username)
 legendas_e_locais = obter_legendas_e_locais(perfil)
 perfis_amigos_proximos = obter_perfis_amigos_proximos(username, 10)
