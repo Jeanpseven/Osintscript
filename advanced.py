@@ -139,8 +139,10 @@ sites = [
 "https://xvideos.com/models/{}",
 "https://xvideos.com/channels/{}",
 "https://pornhub.com/{}",
-"https://t.me/{}"
-
+"https://t.me/{}",
+"https://2Dimensions.com/a/{}",
+"http://forum.3dnews.ru/member.php?username={}",
+"https://www.7cups.com/@{}",
 ]
 
 # Busca em sites específicos
