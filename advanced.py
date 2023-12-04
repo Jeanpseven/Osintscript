@@ -2,10 +2,13 @@ import requests
 
 def check_profile_existence(site, username):
     url = site.format(username)
-    response = requests.get(url)
-
-    if response.status_code == 200:
-        print(f"Profile found on {site}: {url}")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Isso irá gerar uma exceção para códigos de erro HTTP
+        if response.status_code == 200:
+            print(f"Profile found on {site}: {url}")
+    except requests.exceptions.RequestException as e:
+        print(f"Error checking {site}: {e}")
 
 # Lista de sites
 sites = [
