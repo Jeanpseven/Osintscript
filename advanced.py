@@ -135,7 +135,12 @@ sites = [
     "https://www.youtube.com/{}",
     "https://www.wattpad.com/user/{}",
     "https://www.netflix.com/{}",
-    "https://www.github.com/{}"
+    "https://www.github.com/{}",
+"https://xvideos.com/models/{}",
+"https://xvideos.com/channels/{}",
+"https://pornhub.com/{}",
+"https://t.me/{}"
+
 ]
 
 # Busca em sites específicos
