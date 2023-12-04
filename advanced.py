@@ -6,8 +6,6 @@ def check_profile_existence(site, username):
 
     if response.status_code == 200:
         print(f"Profile found on {site}: {url}")
-    else:
-        print(f"Profile not found on {site}")
 
 # Lista de sites
 sites = [
